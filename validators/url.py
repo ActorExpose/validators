@@ -30,7 +30,7 @@ regex = re.compile(
     u"" + ip_last_octet + u")"
     u"|"
     # host name
-    u"(?:(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)"
+    u"(?:(?:[a-z\u00a1-\uffff0-9-_]-?)*[a-z\u00a1-\uffff0-9]+)"
     # domain name
     u"(?:\.(?:[a-z\u00a1-\uffff0-9]-?)*[a-z\u00a1-\uffff0-9]+)*"
     # TLD identifier
